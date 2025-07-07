@@ -1,20 +1,15 @@
 {
-    "name": "FStest",
+    "display_name": "FStest",
     "version": "1.0.0",
     "description": "测试各种各样神秘的功能",
+    "requires": [],
+	"optional": [],
     "author": "钫酸",
     "homepage": "https://github.com/chen079/STPluginTest",
     "repository": "https://github.com/chen079/STPluginTest",
     "license": "MIT",
     "tags": ["测试"],
-    "dependencies": {
-        
-    },
-    "extension": {
-        "type": "chat",
-        "options": {
-            "可选项1": "默认值",
-            "可选项2": true
-        }
-    }
+    "js": "dist/FStest.js",
+	"css": "index.css",
+    "auto_update": true
 }
