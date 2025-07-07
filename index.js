@@ -1,8 +1,8 @@
 window.SillyTavern.registerExtension({
-    name: 'SettingsExample',
+    name: 'FStest',
     init: function () {
         // 加载设置
-        const settings = window.SillyTavern.loadSettings('SettingsExample');
+        const settings = window.SillyTavern.loadSettings('FStest');
         console.log('设置:', settings);
     },
     settings: function () {
@@ -16,7 +16,3 @@ window.SillyTavern.registerExtension({
         `;
     }
 });
-
-window.SillyTavern.selectClick=function(){
-    
-}
