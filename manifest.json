@@ -1,0 +1,20 @@
+{
+    "name": "示例扩展",
+    "version": "1.0.0",
+    "description": "这是一个示例扩展",
+    "author": "您的名字",
+    "homepage": "https://github.com/您的用户名/您的仓库",
+    "repository": "https://github.com/您的用户名/您的仓库",
+    "license": "MIT",
+    "tags": ["示例", "教程"],
+    "dependencies": {
+        "另一个扩展": ">=1.0.0"
+    },
+    "extension": {
+        "type": "chat",
+        "options": {
+            "可选项1": "默认值",
+            "可选项2": true
+        }
+    }
+}
